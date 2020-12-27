@@ -1,13 +1,44 @@
 @import "~normalize.css";
 
 @import "_variables";
+// @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap');
+@import "./modules/1.navigation.scss";
+@import "./modules/2a.section-album.scss";
+@import "./modules/2b.section-about.scss";
+@import "./modules/2c.section-contact.scss";
+@import "./modules/3.footer.scss";
 
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// ::-webkit-scrollbar {
+//   display: none;
+// }
 
 body {
-  background: $wtf;
-  color: #fff;
+  position: relative;
+  background: $mainColor;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  // font-family: "Rajdhani", sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+  font-family: 'Jura', sans-serif;
+  justify-content: start;
+  flex-direction: column;
   min-height: 100vh;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  background: url("/src/assets/images/background.png");
+  background-attachment: fixed;
 }

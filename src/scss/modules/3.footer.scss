@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 160px;
+  background-image: url("/src/assets/images/background.png");
+  &__image {
+    margin-top:48px;
+    opacity: 0.8;
+    width: 100px;
+  }
+}
+
+.footer-description {
+  font-size: 9px;
+  color: $mainColor;
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -79,5 +79,11 @@ module.exports = {
       chunks: ["index"],
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/music.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "music.html",
+    }),
   ],
 };
