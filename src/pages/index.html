@@ -29,10 +29,10 @@
             <a class="nav-list__link" href="music.html">MUSIC</a>
           </li>
           <li class="nav-list__element">
-            <a class="nav-list__link" href="#">VIDEO</a>
+            <a class="nav-list__link" href="videos.html">VIDEOS</a>
           </li>
           <li class="nav-list__element">
-            <a class="nav-list__link" href="#">FOTO</a>
+            <a class="nav-list__link" href="photos.html">PHOTOS</a>
           </li>
           <li class="nav-list__element">
             <a id="merch" class="nav-list__link" href="#merch">MERCH</a>
@@ -135,14 +135,16 @@
 
     <!-- MAIN -->
     <main class="main">
-      <!-- ALBUM -->
-      <article class="album" id="album">
+      <div class="album" id="album">
         <img
           class="album__image"
           alt="album"
           src="/src/assets/images/album.jpg"
         />
-        <div class="album-wrapper">
+
+        <!-- ALBUM - EVIL TOUCH -->
+        <article class="album-wrapper">
+          <h2 class="album-wrapper__title">EVIL TOUCH</h2>
           <p class="album-wrapper__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
             amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
@@ -164,123 +166,142 @@
             <figcaption class="album-examples__figcaption">
               ALBUM EXAMPLES:
             </figcaption>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">1. DARK AGES - EXAMPLE</p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">
-              2. BLACK FORTUNE - EXAMPLE
-            </p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">3. NEW WORLD - EXAMPLE</p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">
-              4. TURTLES ARE GONE - EXAMPLE
-            </p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">
-              5. FIELD OF GLORY - EXAMPLE
-            </p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">
-              6. CONGRESS OF INSPIRATION - EXAMPLE
-            </p>
-            <audio
-              class="album-examples__audio"
-              controls
-              src="/src/assets/audio/t-rex-roar.mp3"
-            ></audio>
-            <p class="album-examples__description">7. EVIL TOUCH - EXAMPLE</p>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">DARK AGES</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">BLACK FORTUNE</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">NEW WORLD</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">TURTLES ARE GONE</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">FIELD OF GLORY</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">CONGRESS OF INSPIRATION</p>
+            </div>
+            <div class="album-example">
+              <audio
+                class="album-example__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-example__description">EVIL TOUCH</p>
+            </div>
           </figure>
           <!-- buy button -->
-          <a href="#merch" id="aboutMe" class="album-wrapper__linkButton"
-            >BUY ALBUM</a
-          >
-        </div>
-      </article>
+          <a href="#merch" class="album-wrapper__linkButton">BUY ALBUM</a>
+        </article>
+      </div>
 
       <!-- ABOUT ME -->
-      <article class="article">
+      <div class="article article--special" id="aboutMe">
         <img
           class="article__image"
           alt="aboutMe"
           src="/src/assets/images/aboutMe-me.jpg"
         />
-        <div class="article-wrapper">
+        <article class="article-wrapper">
           <h2 class="article-wrapper__title">ABOUT ME</h2>
+          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
           <p class="article-wrapper__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
             amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
             cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
             adipisci necessitatibus.
           </p>
+          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
           <p class="article-wrapper__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
             amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
             cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
             adipisci necessitatibus.
           </p>
+          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
           <p class="article-wrapper__description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
             amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
             cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
             adipisci necessitatibus.
           </p>
-        </div>
-      </article>
+        </article>
+      </div>
 
       <!-- MY DRUMS -->
-      <article class="article" id="myDrums">
-        <div class="article-wrapper">
-          <h2 class="article-wrapper__title">MY DRYMS</h2>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
-          </p>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
-          </p>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
-          </p>
-        </div>
+      <div class="article article--special" id="myDrums">
         <img
-        class="article__image"
-        alt="article"
-        src="/src/assets/images/gallery/1.JPG"
-      />
-      </article>
+          class="article__image"
+          alt="article"
+          src="/src/assets/images/gallery/1.JPG"
+        />
+        <article class="article-wrapper">
+          <h2 class="article-wrapper__title">MY DRUMS</h2>
+          <h3 class="article-wrapper__subTitle">
+            TAMA Superstar Maple Studio Shell Set MGD
+          </h3>
+          <p class="article-wrapper__description">
+            Power, Versatility, Image. Thanks to TAMA Hyper-Drive, the audience
+            will hear every hit and see your every move. Hyper-Drive is a unique
+            and perfect combination of modern and traditional drum sizes. It
+            offers strength with transparency, unparalleled versatility of set
+            configurations and full transparency of your performances. Toms,
+            despite their shallow size, give deep and warm sound.
+          </p>
+          <h3 class="article-wrapper__subTitle">Corpses:</h3>
+          <p class="article-wrapper__description">
+            -B bass: 7-layer clone 7 mm -Floor Volume: 6-layer clone 6 mm - Tom
+            Tom: 6-layer clone 6 mm
+          </p>
+          <h3 class="article-wrapper__subTitle">Configuration:</h3>
+          <p class="article-wrapper__description">
+            - Bass drum: 22x18" - Tom Tom: 10x6,5" - Tom Tom: 12x7" -Floor Tom
+            14x12" -Floor Tom 16x14"
+          </p>
+          <h3 class="article-wrapper__subTitle">Hardware:</h3>
+          <p class="article-wrapper__description">-2x mount for volumes MC69</p>
+          <h3 class="article-wrapper__subTitle">Color:</h3>
+          <p class="article-wrapper__description">Midnight Gold Sparkle</p>
+          <h3 class="article-wrapper__subTitle">Accessories:</h3>
+          <p class="article-wrapper__description">
+            Black nickel Independent suspension of volumes Star-Cast Die casts
+            Die-Cast
+          </p>
+        </article>
+      </div>
 
       <!-- CONTACT -->
       <section class="contact" id="contact">

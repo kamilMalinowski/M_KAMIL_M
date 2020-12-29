@@ -2,9 +2,19 @@
   display: flex;
   justify-content: center;
   padding: 0;
+  &--special {
+    display: none;
+  }
   &__image {
     margin: 120px 34px 120px 80px;
     width: 570px;
+  }
+}
+
+.album {
+  &--open {
+
+    display: flex;
   }
 }
 
@@ -14,6 +24,12 @@
   flex-direction: column;
   margin: 0;
   padding: 0 80px 0 0;
+  &__title {
+    margin-bottom: 4px;
+    padding: 0;
+    color: $mainColor;
+    display: inline-block;
+  }
   &__description {
     font-size: 16px;
     margin: 0;
@@ -55,19 +71,24 @@
 
 .album-examples {
   border-radius: 8px;
-  padding-left: 4px;
   margin: 0 0 8px 0;
   background: $mainColor;
   width: 100%;
   &__figcaption {
+    display: block;
     font-size: 24px;
   }
+}
+
+.album-example {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   &__audio {
     height: 20px;
-    width: 200px;
+    width: 180px;
+    margin: 2px;
   }
-  &__description{
-    display:inline-block;
-    margin:0;
+  &__description {
+    margin: 2px;
   }
 }
