@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- HEADER - NOT READY -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kamilM__evilTouch</title>
-    <meta name="description" content="Your project description" />
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
+    <title>M_KAMIL_M</title>
+    <meta name="description" content="Kamil's music album site" />
+    <meta property="og:title" content="M_KAMIL_M" />
+    <meta property="og:description" content="Kamil's music album site" />
+    <!-- add link when site will be ready-->
+    <meta property="og:url" content="#" />
+    <!-- add link from behance-->
+    <meta property="og:image" content="#" />
   </head>
 
   <!-- BODY -->
   <body class="BODY">
     <!-- NAV -->
-
     <nav class="nav nav--js">
-      <!-- LIST MENU -->
+      <!-- nav-list -->
       <ul class="nav-list">
-        <li class="nav-list__element">
-          <a class="nav-list__link" href="index.html">HOME</a>
-        </li>
         <li class="nav-list__element">
           <a class="nav-list__link" href="music.html">MUSIC</a>
         </li>
@@ -35,41 +27,44 @@
           <a class="nav-list__link" href="videos.html">VIDEOS</a>
         </li>
         <li class="nav-list__element">
-          <a id="merch" class="nav-list__link" href="#merch">MERCH</a>
+          <a class="nav-list__link" href="index.html">◄HOME</a>
         </li>
-        <!-- MORE -->
+        <li class="nav-list__element">
+          <a id="merch" class="nav-list__link" href="merch.html">MERCH</a>
+        </li>
+        <!-- more -->
         <li class="nav-list__element">
           <a id="more" class="nav-list__link moreButton--js" href="#more"
-            >MORE</a
+            >▼MORE▼</a
           >
-          <!-- SUB LIST -->
+          <!-- sub-nav -->
           <ul class="nav-list nav-list--subList subList--js">
             <li class="nav-list__element">
-              <a class="nav-list__link" href="#myDrums">MY DRUMS</a>
-            </li>
-            <li class="nav-list__element">
-              <a class="nav-list__link" href="#alone">ALONE</a>
-            </li>
-            <li class="nav-list__element">
-              <a class="nav-list__link" href="#myLittleUniverse"
-                >MY LITTLE UNIVERSE</a
+              <a
+                class="nav-list__link nav-list__link--sublist"
+                href="#wojdowska"
+                >WOJDOWSKA</a
               >
             </li>
             <li class="nav-list__element">
-              <a class="nav-list__link" href="#other">OTHER</a>
+              <a
+                class="nav-list__link nav-list__link--sublist"
+                href="#maratuńczyk"
+                >MARATUŃCZYK</a
+              >
             </li>
           </ul>
         </li>
       </ul>
 
-      <!-- IMAGE -->
+      <!-- image -->
       <img
-        src="/src/assets/images/titleLogo.png"
+        src="/src/assets/images/titleLogo.svg"
         alt="titleLogo"
         class="nav__image"
       />
 
-      <!-- SOCIAL MEDIA -->
+      <!-- social media -->
       <ul class="nav-list">
         <li class="nav-list__element">
           <a
@@ -124,61 +119,112 @@
 
     <!-- MAIN -->
     <main class="main">
-      <!-- SECTION -->
-      <section class="section">
-        <h1 class="section__title">PHOTOS</h1>
+      <!-- HEADER -->
+      <header class="header header--main">
+        <h1 class="header__title header__title--main">PHOTOS♥</h1>
+      </header>
 
-        <!-- ARTICLE - DRUM -->
-        <article class="article" id="myDrums">
-          <h2 class="article__title">MY DRUMS</h2>
-          <div class="article-photos">
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/3.JPG"
-            />
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/4.JPG"
-            />
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/5.JPG"
-            />
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/6.JPG"
-            />
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/7.JPG"
-            />
-            <img
-              class="article-photos__image"
-              alt="album"
-              src="/src/assets/images//gallery/8.JPG"
-            />
-          </div>
-        </article>
+      <!-- ARTICLE - PHOTOS BY J.W.WOJDOWSKA -->
+      <article class="article" id="wojdowska">
+        <h2 class="article__title">PHOTOS BY J.W.WOJDOWSKA</h2>
+        <div class="article-photos">
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/1.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/2.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/3.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/4.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/5.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/6.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/7.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/8.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/wojdowska/9.JPG"
+          />
+        </div>
+      </article>
+      <!-- ARTICLE - PHOTOS BY J.W.WOJDOWSKA -->
+      <article class="article" id="maratuńczyk">
+        <h2 class="article__title">PHOTOS BY KAZIMIERZ MARATUŃCZYK</h2>
+        <div class="article-photos">
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/1.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/2.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/3.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/4.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/5.JPG"
+          />
+          <img
+            class="article-photos__image"
+            alt="album"
+            src="/src/assets/images/kazimierz maratuńczyk/6.JPG"
+          />
+        </div>
+      </article>
 
-        <!-- SECTION - IMAGE -->
-        <img
-          class="section__image"
-          alt="album"
-          src="/src/assets/images//gallery/2.JPG"
-        />
-      </section>
+      <!-- MAIN IMAGE -->
+      <img
+        class="main__image"
+        src="/src/assets/images/kamilM__evilTouch--icon.svg"
+        alt="logo kamilM"
+      />
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
       <img
         class="footer__image"
-        src="/src/assets/images/titleLogo.png"
+        src="/src/assets/images/titleLogo.svg"
         alt="logo KamilM"
       />
       <p class="footer-description">

@@ -1,20 +1,21 @@
+//completed
 .footer {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: column;
+  background: url("/src/assets/images/background.png") center;
   height: 160px;
-  background-image: url("/src/assets/images/background.png");
+  margin: 0;
   &__image {
-    margin-top:48px;
-    opacity: 0.8;
-    width: 100px;
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
   }
 }
 
+//completed
 .footer-description {
-  font-size: 9px;
   color: $mainColor;
+  font-size: 9px;
+  padding: 0;
+  text-align: center;
   &__link {
     color: white;
     text-decoration: none;

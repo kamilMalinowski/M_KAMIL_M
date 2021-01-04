@@ -3,12 +3,16 @@
 @import "_variables";
 // @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap");
 // @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap');
-@import "./modules/navigation.scss";
-@import "./modules/2a.section-album.scss";
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap");
+
+// alphabetically
+@import "./modules/about.scss";
+@import "./modules/album.scss";
 @import "./modules/article.scss";
-@import "./modules/contact.scss";
+@import "./modules/info.scss";
 @import "./modules/footer.scss";
+@import "./modules/header.scss";
+@import "./modules/navigation.scss";
 
 html {
   box-sizing: border-box;
@@ -26,37 +30,25 @@ html {
 // }
 
 body {
-  position: relative;
-  background: $mainColor;
   display: flex;
+  flex-direction: column;
+  font-family: "Jura", sans-serif;
   // font-family: "Rajdhani", sans-serif;
   // font-family: 'Montserrat', sans-serif;
-  font-family: 'Jura', sans-serif;
   justify-content: start;
-  flex-direction: column;
   min-height: 100vh;
-}
-.main {
-  margin: 0;
-  padding: 0;
-  background: url("/src/assets/images/background.png");
-  background-attachment: fixed;
+  position: relative;
 }
 
-.section {
-  margin: 174px 0 0 0;
+.main {
+  background: url("/src/assets/images/background.png") center fixed;
+  margin: 0;
   padding: 0;
-  &__title {
-    margin:0;
-    padding:0;
-    letter-spacing: 16px;
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    font-weight: 300;
-  }
   &__image {
-    width: 100%;
-    margin: 120px 0 0 0;
+    background: url("/src/assets/images/background-light.png") center fixed;
+    height: 300px;
+    margin: 0;
+    padding: 30px 0;
+    width:100%;
   }
 }

@@ -1,155 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- HEADER - NOT READY -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kamilM__evilTouch</title>
-    <meta name="description" content="Your project description" />
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
+    <title>M_KAMIL_M</title>
+    <meta name="description" content="Kamil's music album site" />
+    <meta property="og:title" content="M_KAMIL_M" />
+    <meta property="og:description" content="Kamil's music album site" />
+    <!-- add link when site will be ready-->
+    <meta property="og:url" content="#" />
+    <!-- add link from behance-->
+    <meta property="og:image" content="#" />
   </head>
 
   <!-- BODY -->
   <body class="BODY">
-    <!-- NAV -->
+    <!-- HEADER -->
     <header class="header">
-      <nav class="nav nav--js">
-        <!-- LIST MENU -->
-        <ul class="nav-list">
-          <li class="nav-list__element">
-            <a class="nav-list__link" href="music.html">MUSIC</a>
-          </li>
-          <li class="nav-list__element">
-            <a class="nav-list__link" href="videos.html">VIDEOS</a>
-          </li>
-          <li class="nav-list__element">
-            <a class="nav-list__link" href="photos.html">PHOTOS</a>
-          </li>
-          <li class="nav-list__element">
-            <a id="merch" class="nav-list__link" href="#merch">MERCH</a>
-          </li>
-          <!-- MORE -->
-          <li class="nav-list__element">
-            <a id="more" class="nav-list__link moreButton--js" href="#more"
-              >MORE</a
-            >
-            <!-- SUB LIST -->
-            <ul class="nav-list nav-list--subList subList--js">
-              <li class="nav-list__element">
-                <a class="nav-list__link" href="#album">ALBUM</a>
-              </li>
-              <li class="nav-list__element">
-                <a class="nav-list__link" href="#aboutMe">ABOUT ME</a>
-              </li>
-              <li class="nav-list__element">
-                <a class="nav-list__link" href="#myDrums">MY DRUM</a>
-              </li>
-              <li class="nav-list__element">
-                <a class="nav-list__link" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-
-        <!-- IMAGE -->
-        <img
-          src="/src/assets/images/titleLogo.png"
-          alt="titleLogo"
-          class="nav__image"
-        />
-
-        <!-- SOCIAL MEDIA -->
-        <ul class="nav-list">
-          <li class="nav-list__element">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-list__link nav-list__link--facebook"
-              href="https://www.facebook.com/kams.malinowski"
-              ><img class="nav-list__image" src="/public/fb.svg" alt="facebook"
-            /></a>
-          </li>
-          <li class="nav-list__element">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-list__link nav-list__link--youtube"
-              href="https://www.youtube.com/user/KamilAsomia"
-              ><img class="nav-list__image" src="/public/yt.svg" alt="youtube"
-            /></a>
-          </li>
-          <li class="nav-list__element">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-list__link nav-list__link--instagram"
-              href="https://www.instagram.com/kamil_kapelka_malinowski/"
-              ><img
-                class="nav-list__image"
-                src="/public/inst.svg"
-                alt="instagram"
-            /></a>
-          </li>
-          <li class="nav-list__element">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-list__link nav-list__link--tweeter"
-              href="https://twitter.com/Kamil48660985"
-              ><img
-                class="nav-list__image"
-                src="/public/tweet.svg"
-                alt="tweeter"
-            /></a>
-          </li>
-          <li class="nav-list__element">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              class="nav-list__link nav-list__link--spotify"
-              href="https://www.spotify.com/pl/account/overview/"
-              ><img
-                class="nav-list__image"
-                src="/public/spoti.svg"
-                alt="spotify"
-            /></a>
-          </li>
-        </ul>
-      </nav>
+      <!-- video-->
+      <video class="header__video" autoplay loop>
+        <source src="/src/assets/videos/background.mp4" />
+      </video>
       <!-- buy button-->
-      <div class="nav-buy">
-        <h2 class="nav-buy__title">EVIL_TOUCH</h2>
-        <p class="nav-buy__description">NEW ALBUM OUT NOW</p>
-        <a href="#merch" class="nav-buy__linkButton">BUY ALBUM</a>
-      </div>
+      <h1 class="header__title">EVIL_TOUCH</h1>
+      <p class="header__description">NEW ALBUM OUT NOW</p>
+      <a href="merch.html" class="header__linkButton">BUY ALBUM</a>
     </header>
+
+    <!-- NAV -->
+    <nav class="nav nav--js">
+      <!-- nav-list -->
+      <ul class="nav-list">
+        <li class="nav-list__element">
+          <a class="nav-list__link" href="music.html">MUSIC</a>
+        </li>
+        <li class="nav-list__element">
+          <a class="nav-list__link" href="videos.html">VIDEOS</a>
+        </li>
+        <li class="nav-list__element">
+          <a class="nav-list__link" href="photos.html">PHOTOS</a>
+        </li>
+        <li class="nav-list__element">
+          <a id="merch" class="nav-list__link" href="merch.html">MERCH</a>
+        </li>
+        <!-- more -->
+        <li class="nav-list__element">
+          <a id="more" class="nav-list__link moreButton--js" href="#more"
+            >▼MORE▼</a
+          >
+          <!-- sub-nav -->
+          <ul class="nav-list nav-list--subList subList--js">
+            <li class="nav-list__element">
+              <a class="nav-list__link nav-list__link--sublist" href="#album"
+                >ALBUM</a
+              >
+            </li>
+            <li class="nav-list__element">
+              <a class="nav-list__link nav-list__link--sublist" href="#aboutMe"
+                >ABOUT ME</a
+              >
+            </li>
+            <li class="nav-list__element">
+              <a class="nav-list__link nav-list__link--sublist" href="#myDrums"
+                >MY DRUMS</a
+              >
+            </li>
+            <li class="nav-list__element">
+              <a class="nav-list__link nav-list__link--sublist" href="#contact"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- image -->
+      <img
+        src="/src/assets/images/titleLogo.svg"
+        alt="titleLogo"
+        class="nav__image"
+      />
+
+      <!-- social media -->
+      <ul class="nav-list">
+        <li class="nav-list__element">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-list__link nav-list__link--facebook"
+            href="https://www.facebook.com/kams.malinowski"
+            ><img class="nav-list__image" src="/public/fb.svg" alt="facebook"
+          /></a>
+        </li>
+        <li class="nav-list__element">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-list__link nav-list__link--youtube"
+            href="https://www.youtube.com/user/KamilAsomia"
+            ><img class="nav-list__image" src="/public/yt.svg" alt="youtube"
+          /></a>
+        </li>
+        <li class="nav-list__element">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-list__link nav-list__link--instagram"
+            href="https://www.instagram.com/kamil_kapelka_malinowski/"
+            ><img
+              class="nav-list__image"
+              src="/public/inst.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li class="nav-list__element">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-list__link nav-list__link--tweeter"
+            href="https://twitter.com/Kamil48660985"
+            ><img class="nav-list__image" src="/public/tweet.svg" alt="tweeter"
+          /></a>
+        </li>
+        <li class="nav-list__element">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-list__link nav-list__link--spotify"
+            href="https://www.spotify.com/pl/account/overview/"
+            ><img class="nav-list__image" src="/public/spoti.svg" alt="spotify"
+          /></a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- MAIN -->
     <main class="main">
+      <!-- ALBUM - EVIL TOUCH -->
       <div class="album" id="album">
         <img
           class="album__image"
           alt="album"
-          src="/src/assets/images/album.jpg"
+          src="/src/assets/images/album.png"
         />
-
-        <!-- ALBUM - EVIL TOUCH -->
         <article class="album-wrapper">
           <h2 class="album-wrapper__title">EVIL TOUCH</h2>
           <p class="album-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
+            This album changed my life. After voluntarily leaving my own project
+            My Little Universe and after big problems with my spine, I decided
+            to create something that would bring me joy and be important in
+            solitude.
           </p>
           <!-- setlist -->
           <ol class="album-list">
@@ -162,169 +163,182 @@
             <li class="album-list__element">7. EVIL TOUCH</li>
           </ol>
           <!-- playlist of examples -->
-          <figure class="album-examples">
-            <figcaption class="album-examples__figcaption">
+          <figure class="album-player">
+            <figcaption class="album-player__figcaption">
               ALBUM EXAMPLES:
             </figcaption>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">DARK AGES</p>
+              <p class="album-mp3__description">DARK AGES</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">BLACK FORTUNE</p>
+              <p class="album-mp3__description">BLACK FORTUNE</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">NEW WORLD</p>
+              <p class="album-mp3__description">NEW WORLD</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">TURTLES ARE GONE</p>
+              <p class="album-mp3__description">TURTLES ARE GONE</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">FIELD OF GLORY</p>
+              <p class="album-mp3__description">FIELD OF GLORY</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">CONGRESS OF INSPIRATION</p>
+              <p class="album-mp3__description">CONGRESS OF INSPIRATION</p>
             </div>
-            <div class="album-example">
+            <div class="album-mp3">
               <audio
-                class="album-example__audio"
+                class="album-mp3__audio"
                 controls
                 src="/src/assets/audio/t-rex-roar.mp3"
               ></audio>
-              <p class="album-example__description">EVIL TOUCH</p>
+              <p class="album-mp3__description">EVIL TOUCH</p>
             </div>
           </figure>
           <!-- buy button -->
-          <a href="#merch" class="album-wrapper__linkButton">BUY ALBUM</a>
+          <a href="merch.html" class="album-wrapper__linkButton">BUY ALBUM</a>
         </article>
       </div>
 
-      <!-- ABOUT ME -->
-      <div class="article article--special" id="aboutMe">
+      <!-- ABOUT ME - add description-->
+      <div class="about" id="aboutMe">
         <img
-          class="article__image"
-          alt="aboutMe"
+          class="about__image"
+          alt="about m e"
           src="/src/assets/images/aboutMe-me.jpg"
         />
-        <article class="article-wrapper">
-          <h2 class="article-wrapper__title">ABOUT ME</h2>
-          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
+        <article class="about-wrapper">
+          <h2 class="about-wrapper__title">ABOUT ME</h2>
+          <h3 class="about-wrapper__subTitle">KAMIL MALINOWSKI</h3>
+          <p class="about-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            eligendi harum dignissimos veritatis neque accusamus dolorem officia
+            saepe est alias! Quam, facere? Quidem id dignissimos doloremque.
+            Eaque quas aliquam provident?
           </p>
-          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
+          <h3 class="about-wrapper__subTitle">MY MUSICIAL EXPERIENCES</h3>
+          <p class="about-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            eligendi harum dignissimos veritatis neque accusamus dolorem officia
+            saepe est alias! Quam, facere? Quidem id dignissimos doloremque.
+            Eaque quas aliquam provident?
           </p>
-          <h3 class="article-wrapper__subTitle">BLA BLA BAL</h3>
-          <p class="article-wrapper__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
-            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
-            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
-            adipisci necessitatibus.
+          <h3 class="about-wrapper__subTitle">MY PROJECTS AND BANDS</h3>
+          <p class="about-wrapper__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+            aliquam perspiciatis totam ipsum laborum ex alias accusantium
+            labore, deleniti illo in eius nesciunt rerum non earum vel, incidunt
+            dicta omnis?
+          </p>
+          <h3 class="about-wrapper__subTitle">FUTURE</h3>
+          <p class="about-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            qui aliquam? Nesciunt obcaecati minus dolore vitae voluptatum, harum
+            id facilis corrupti dolores unde inventore similique eos accusamus
+            magni natus maiores?
           </p>
         </article>
       </div>
 
       <!-- MY DRUMS -->
-      <div class="article article--special" id="myDrums">
-        <img
-          class="article__image"
-          alt="article"
-          src="/src/assets/images/gallery/1.JPG"
-        />
-        <article class="article-wrapper">
-          <h2 class="article-wrapper__title">MY DRUMS</h2>
-          <h3 class="article-wrapper__subTitle">
-            TAMA Superstar Maple Studio Shell Set MGD
+      <div class="about about--inverted" id="myDrums">
+        <article class="about-wrapper">
+          <h2 class="about-wrapper__title">MY DRUMS</h2>
+          <h3 class="about-wrapper__subTitle">
+            TAMA Superstar Hyperdrive Maple Shell Set
           </h3>
-          <p class="article-wrapper__description">
-            Power, Versatility, Image. Thanks to TAMA Hyper-Drive, the audience
-            will hear every hit and see your every move. Hyper-Drive is a unique
-            and perfect combination of modern and traditional drum sizes. It
-            offers strength with transparency, unparalleled versatility of set
-            configurations and full transparency of your performances. Toms,
-            despite their shallow size, give deep and warm sound.
-          </p>
-          <h3 class="article-wrapper__subTitle">Corpses:</h3>
-          <p class="article-wrapper__description">
-            -B bass: 7-layer clone 7 mm -Floor Volume: 6-layer clone 6 mm - Tom
-            Tom: 6-layer clone 6 mm
-          </p>
-          <h3 class="article-wrapper__subTitle">Configuration:</h3>
-          <p class="article-wrapper__description">
-            - Bass drum: 22x18" - Tom Tom: 10x6,5" - Tom Tom: 12x7" -Floor Tom
-            14x12" -Floor Tom 16x14"
-          </p>
-          <h3 class="article-wrapper__subTitle">Hardware:</h3>
-          <p class="article-wrapper__description">-2x mount for volumes MC69</p>
-          <h3 class="article-wrapper__subTitle">Color:</h3>
-          <p class="article-wrapper__description">Midnight Gold Sparkle</p>
-          <h3 class="article-wrapper__subTitle">Accessories:</h3>
-          <p class="article-wrapper__description">
+          <p class="about-wrapper__description">Hyper-power!</p>
+          <h3 class="about-wrapper__subTitle">Corpses:</h3>
+          <ul class="about-list">
+            <li class="about-list__element">B bass: 7-layer clone 7 mm</li>
+            <li class="about-list__element">
+              Floor Volume: 6-layer clone 6 mm
+            </li>
+            <li class="about-list__element">Tom Tom: 6-layer clone 6 mm</li>
+          </ul>
+          <h3 class="about-wrapper__subTitle">Configuration:</h3>
+          <ul class="about-list">
+            <li class="about-list__element">Bass drum: 22x18"</li>
+            <li class="about-list__element">Snare: 13x5"</li>
+            <li class="about-list__element">Tom Tom: 10x6,5"</li>
+            <li class="about-list__element">Tom Tom: 12x7"</li>
+            <li class="about-list__element">Floor Tom: 14x12"</li>
+            <li class="about-list__element">Floor Tom: 16x14"</li>
+          </ul>
+          <h3 class="about-wrapper__subTitle">Cymbals xs20 series:</h3>
+          <ul class="about-list">
+            <li class="about-list__element">Ride 20" Medium</li>
+            <li class="about-list__element">Crash 16" Medium-thin</li>
+            <li class="about-list__element">Hi-hat 14" Medium</li>
+            <li class="about-list__element">Crash 18" Medium-thin</li>
+            <li class="about-list__element">China 18"</li>
+          </ul>
+          <h3 class="about-wrapper__subTitle">Color:</h3>
+          <p class="about-wrapper__description">Midnight Gold Sparkle</p>
+          <h3 class="about-wrapper__subTitle">Accessories:</h3>
+          <p class="about-wrapper__description">
             Black nickel Independent suspension of volumes Star-Cast Die casts
             Die-Cast
           </p>
         </article>
+        <img
+          class="about__image about__image--inverted"
+          alt="my drums"
+          src="/src/assets/images/myDrums.jpg"
+        />
       </div>
 
       <!-- CONTACT -->
-      <section class="contact" id="contact">
-        <h2 class="contact__title">CONTACT</h2>
+      <section class="info" id="contact">
+        <h2 class="info__title">CONTACT♥ME</h2>
         <img
-          class="contact__image"
-          src="/src/assets/images/logo.png"
+          class="info__image"
+          src="/src/assets/images/kamilM__evilTouch--icon.svg"
           alt="logo kamilM"
         />
-        <div class="contact-links">
+        <div class="info-links">
           <a
             target="_blank"
             rel="noopener noreferrer"
-            class="contact-links__link"
+            class="info-links__link"
             href="https://www.facebook.com/kams.malinowski"
             >KAMIL MALINOWSKI</a
           >
           <a
-            class="contact-links__link"
+            class="info-links__link"
             href="mailto:kamil.malinowski.mlu@gmail.com"
             >kamil.malinowski.mlu@gmail.com</a
           >
-          <a class="contact-links__link" href="tel:530492112">530 492 112</a>
+          <a class="info-links__link" href="tel:530492112">530 492 112</a>
         </div>
       </section>
     </main>
@@ -333,7 +347,7 @@
     <footer class="footer">
       <img
         class="footer__image"
-        src="/src/assets/images/titleLogo.png"
+        src="/src/assets/images/titleLogo.svg"
         alt="logo KamilM"
       />
       <p class="footer-description">

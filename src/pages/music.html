@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- HEADER - NOT READY -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>kamilM__evilTouch</title>
-    <meta name="description" content="Your project description" />
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
+    <title>M_KAMIL_M</title>
+    <meta name="description" content="Kamil's music album site" />
+    <meta property="og:title" content="M_KAMIL_M" />
+    <meta property="og:description" content="Kamil's music album site" />
+    <!-- add link when site will be ready-->
+    <meta property="og:url" content="#" />
+    <!-- add link from behance-->
+    <meta property="og:image" content="#" />
   </head>
 
   <!-- BODY -->
   <body class="BODY">
     <!-- NAV -->
-
     <nav class="nav nav--js">
-      <!-- LIST MENU -->
+      <!-- nav-list -->
       <ul class="nav-list">
         <li class="nav-list__element">
-          <a class="nav-list__link" href="index.html">HOME</a>
+          <a class="nav-list__link" href="index.html">◄HOME</a>
         </li>
         <li class="nav-list__element">
           <a class="nav-list__link" href="videos.html">VIDEOS</a>
@@ -35,23 +30,31 @@
           <a class="nav-list__link" href="photos.html">PHOTOS</a>
         </li>
         <li class="nav-list__element">
-          <a id="merch" class="nav-list__link" href="#merch">MERCH</a>
+          <a id="merch" class="nav-list__link" href="merch.html">MERCH</a>
         </li>
-        <!-- MORE -->
+        <!-- more -->
         <li class="nav-list__element">
           <a id="more" class="nav-list__link moreButton--js" href="#more"
-            >MORE</a
+            >▼MORE▼</a
           >
-          <!-- SUB LIST -->
+          <!-- sub-nav -->
           <ul class="nav-list nav-list--subList subList--js">
             <li class="nav-list__element">
-              <a class="nav-list__link" href="#evilTouch">EVIL TOUCH</a>
+              <a
+                class="nav-list__link nav-list__link--sublist"
+                href="#evilTouch"
+                >EVIL TOUCH</a
+              >
             </li>
             <li class="nav-list__element">
-              <a class="nav-list__link" href="#alone">ALONE</a>
+              <a class="nav-list__link nav-list__link--sublist" href="#alone"
+                >ALONE</a
+              >
             </li>
             <li class="nav-list__element">
-              <a class="nav-list__link" href="#myLittleUniverse"
+              <a
+                class="nav-list__link nav-list__link--sublist"
+                href="#myLittleUniverse"
                 >MY LITTLE UNIVERSE</a
               >
             </li>
@@ -59,14 +62,14 @@
         </li>
       </ul>
 
-      <!-- IMAGE -->
+      <!-- image -->
       <img
-        src="/src/assets/images/titleLogo.png"
+        src="/src/assets/images/titleLogo.svg"
         alt="titleLogo"
         class="nav__image"
       />
 
-      <!-- SOCIAL MEDIA -->
+      <!-- social media -->
       <ul class="nav-list">
         <li class="nav-list__element">
           <a
@@ -119,277 +122,296 @@
       </ul>
     </nav>
 
-    <!-- MAIN -->
+    <!-- MAIN - brak opisów i tracków-->
     <main class="main">
-      <!-- SECTION -->
-      <section class="section">
-        <h1 class="section__title">MUSIC</h1>
+      <!-- HEADER -->
+      <header class="header header--main">
+        <h1 class="header__title header__title--main">MUSIC♥</h1>
+      </header>
 
-        <!-- ARTICLE - STUDIO ALBUMS -->
-        <article class="article">
-          <h2 class="article__title">STUDIO ALBUMS</h2>
-          <div class="article-albumsWrapper">
-            <a href="#evilTouch">
-              <img
-                class="article-albumsWrapper__image showAlbumEvil--js"
-                alt="album"
-                src="/src/assets/images/album.jpg"
-              />
-            </a>
-            <a href="#alone">
-              <img
-                class="article-albumsWrapper__image showAlbumAlone--js"
-                alt="album"
-                src="/src/assets/images/mlu-ep.png"
-              />
-            </a>
-            <a href="#myLittleUniverse">
-              <img
-                class="article-albumsWrapper__image showAlbumMLU--js"
-                alt="album"
-                src="/src/assets/images/mlu-demo.png"
-              />
-            </a>
-          </div>
-        </article>
-
-        <!-- ALBUM - EVIL TOUCH -->
-        <div class="album album--special albumEvil--js" id="evilTouch">
-          <img
-            class="album__image"
-            alt="album"
-            src="/src/assets/images/album.jpg"
-          />
-          <article class="album-wrapper">
-            <h2 class="album-wrapper__title">EVIL TOUCH</h2>
-            <p class="album-wrapper__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              hic amet beatae, officia, tenetur deserunt vel quidem eveniet
-              doloremque cumque pariatur voluptas incidunt, minima fugit velit
-              fuga tempore adipisci necessitatibus.
-            </p>
-            <!-- setlist -->
-            <ol class="album-list">
-              <li class="album-list__element">1. DARK AGES</li>
-              <li class="album-list__element">2. BLACK FORTUNE</li>
-              <li class="album-list__element">3. NEW WORLD</li>
-              <li class="album-list__element">4. TURTLES ARE GONE</li>
-              <li class="album-list__element">5. FIELD OF GLORY</li>
-              <li class="album-list__element">6. CONGRESS OF INSPIRATION</li>
-              <li class="album-list__element">7. EVIL TOUCH</li>
-            </ol>
-            <!-- playlist of examples -->
-            <figure class="album-examples">
-              <figcaption class="album-examples__figcaption">
-                ALBUM EXAMPLES:
-              </figcaption>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">DARK AGES</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">BLACK FORTUNE</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">NEW WORLD</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">TURTLES ARE GONE</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">FIELD OF GLORY</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">
-                  CONGRESS OF INSPIRATION
-                </p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">EVIL TOUCH</p>
-              </div>
-            </figure>
-            <!-- buy button -->
-            <a href="#merch" id="aboutMe" class="album-wrapper__linkButton"
-              >BUY ALBUM</a
-            >
-          </article>
+      <!-- STUDIO ALBUMS - link -->
+      <article class="article">
+        <h2 class="article__title">STUDIO ALBUMS</h2>
+        <div class="article-albumsWrapper">
+          <a class="article-albumsWrapper__link" href="#evilTouch">
+            <img
+              class="article-albumsWrapper__image"
+              alt="album"
+              src="/src/assets/images/album.png"
+            />
+          </a>
+          <a class="article-albumsWrapper__link" href="#alone">
+            <img
+              class="article-albumsWrapper__image"
+              alt="album"
+              src="/src/assets/images/mlu-ep.png"
+            />
+          </a>
+          <a class="article-albumsWrapper__link" href="#myLittleUniverse">
+            <img
+              class="article-albumsWrapper__image"
+              alt="album"
+              src="/src/assets/images/mlu-demo.png"
+            />
+          </a>
         </div>
+      </article>
 
-        <!-- ALBUM - ALONE -->
-        <div class="album album--special albumAlone--js" id="alone">
-          <img
-            class="album__image"
-            alt="album"
-            src="/src/assets/images/mlu-ep.png"
-          />
-          <article class="album-wrapper">
-            <h2 class="album-wrapper__title">ALONE</h2>
-            <p class="album-wrapper__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              hic amet beatae, officia, tenetur deserunt vel quidem eveniet
-              doloremque cumque pariatur voluptas incidunt, minima fugit velit
-              fuga tempore adipisci necessitatibus.
-            </p>
-            <!-- setlist -->
-            <ol class="album-list">
-              <li class="album-list__element">1. EMPTINESS</li>
-              <li class="album-list__element">2. PYRAMID OF PERIL</li>
-              <li class="album-list__element">3. ALONE</li>
-            </ol>
-            <!-- playlist of examples -->
-            <figure class="album-examples">
-              <figcaption class="album-examples__figcaption">ALBUM:</figcaption>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">EMPTINESS</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">PYRAMID OF PERIL</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">ALONE</p>
-              </div>
-            </figure>
-          </article>
-        </div>
-
-        <!-- ALBUM - MY LITTLE UNIVERSE -->
-        <div class="album album--special albumMLU--js" id="myLittleUniverse">
-          <img
-            class="album__image"
-            alt="album"
-            src="/src/assets/images/mlu-demo.png"
-          />
-          <article class="album-wrapper">
-            <h2 class="album-wrapper__title">MY LITTLE UNIVERSE</h2>
-            <p class="album-wrapper__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              hic amet beatae, officia, tenetur deserunt vel quidem eveniet
-              doloremque cumque pariatur voluptas incidunt, minima fugit velit
-              fuga tempore adipisci necessitatibus.
-            </p>
-            <!-- setlist -->
-            <ol class="album-list">
-              <li class="album-list__element">1. MY LITTLE UNIVERSE</li>
-              <li class="album-list__element">2. STRANGER FROM NOWHERE</li>
-              <li class="album-list__element">3. RAVEN'S EYE</li>
-              <li class="album-list__element">4. CREATE YOU OWN ENEMY</li>
-              <li class="album-list__element">
-                5. WHEN THE MOON DESTROYS THE EARTH
-              </li>
-            </ol>
-            <!-- playlist of examples -->
-            <figure class="album-examples">
-              <figcaption class="album-examples__figcaption">ALBUM:</figcaption>
-
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">MY LITTLE UNIVERSE</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">STRANGER FROM NOWHERE</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">RAVEN'S EYE</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">CREATE YOU OWN ENEMY</p>
-              </div>
-              <div class="album-example">
-                <audio
-                  class="album-example__audio"
-                  controls
-                  src="/src/assets/audio/t-rex-roar.mp3"
-                ></audio>
-                <p class="album-example__description">
-                  WHEN THE MOON DESTROYS THE EARTH
-                </p>
-              </div>
-            </figure>
-          </article>
-        </div>
-
-        <!-- SECTION - IMAGE -->
+      <!-- ABOUT ALBUMS -->
+      <!-- ALBUM - EVIL TOUCH -->
+      <div class="album" id="evilTouch">
         <img
-          class="section__image"
+          class="album__image"
           alt="album"
-          src="/src/assets/images//gallery/10.JPG"
+          src="/src/assets/images/album.png"
         />
-      </section>
+        <article class="album-wrapper">
+          <h2 class="album-wrapper__title">EVIL TOUCH</h2>
+          <p class="album-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
+            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
+            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
+            adipisci necessitatibus.
+          </p>
+          <!-- setlist -->
+          <ol class="album-list">
+            <li class="album-list__element">1. DARK AGES</li>
+            <li class="album-list__element">2. BLACK FORTUNE</li>
+            <li class="album-list__element">3. NEW WORLD</li>
+            <li class="album-list__element">4. TURTLES ARE GONE</li>
+            <li class="album-list__element">5. FIELD OF GLORY</li>
+            <li class="album-list__element">6. CONGRESS OF INSPIRATION</li>
+            <li class="album-list__element">7. EVIL TOUCH</li>
+          </ol>
+          <!-- playlist of examples -->
+          <figure class="album-player">
+            <figcaption class="album-player__figcaption">
+              ALBUM EXAMPLES:
+            </figcaption>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">DARK AGES</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">BLACK FORTUNE</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">NEW WORLD</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">TURTLES ARE GONE</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">FIELD OF GLORY</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">CONGRESS OF INSPIRATION</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">EVIL TOUCH</p>
+            </div>
+          </figure>
+          <!-- buy button -->
+          <a href="merch.html" id="aboutMe" class="album-wrapper__linkButton"
+            >BUY ALBUM</a
+          >
+        </article>
+      </div>
+
+      <!-- ALBUM - ALONE -->
+      <div class="album" id="alone">
+        <img
+          class="album__image"
+          alt="album"
+          src="/src/assets/images/mlu-ep.png"
+        />
+        <article class="album-wrapper">
+          <h2 class="album-wrapper__title album-wrapper__title--alone">
+            ALONE
+          </h2>
+          <p class="album-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
+            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
+            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
+            adipisci necessitatibus.
+          </p>
+          <!-- setlist -->
+          <ol class="album-list">
+            <li class="album-list__element album-list__element--alone">
+              1. EMPTINESS
+            </li>
+            <li class="album-list__element album-list__element--alone">
+              2. PYRAMID OF PERIL
+            </li>
+            <li class="album-list__element album-list__element--alone">
+              3. ALONE
+            </li>
+          </ol>
+          <!-- playlist of examples -->
+          <figure class="album-player album-player--alone">
+            <figcaption class="album-player__figcaption">EP:</figcaption>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/alone/My Little Universe - 1. Emptiness.wav"
+              ></audio>
+              <p class="album-mp3__description">EMPTINESS</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/alone/My Little Universe - 2. Pyramid of Peril.wav"
+              ></audio>
+              <p class="album-mp3__description">PYRAMID OF PERIL</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/alone/My Little Universe - 3. Alone.wav"
+              ></audio>
+              <p class="album-mp3__description">ALONE</p>
+            </div>
+          </figure>
+        </article>
+      </div>
+
+      <!-- ALBUM - MY LITTLE UNIVERSE -->
+      <div class="album" id="myLittleUniverse">
+        <img
+          class="album__image"
+          alt="album"
+          src="/src/assets/images/mlu-demo.png"
+        />
+        <article class="album-wrapper">
+          <h2 class="album-wrapper__title album-wrapper__title--mlu">
+            MY LITTLE UNIVERSE
+          </h2>
+          <p class="album-wrapper__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid hic
+            amet beatae, officia, tenetur deserunt vel quidem eveniet doloremque
+            cumque pariatur voluptas incidunt, minima fugit velit fuga tempore
+            adipisci necessitatibus.
+          </p>
+          <!-- setlist -->
+          <ol class="album-list">
+            <li class="album-list__element album-list__element--mlu">
+              1. MY LITTLE UNIVERSE
+            </li>
+            <li class="album-list__element album-list__element--mlu">
+              2. STRANGER FROM NOWHERE
+            </li>
+            <li class="album-list__element album-list__element--mlu">
+              3. RAVEN'S EYE
+            </li>
+            <li class="album-list__element album-list__element--mlu">
+              4. CREATE YOU OWN ENEMY
+            </li>
+            <li class="album-list__element album-list__element--mlu">
+              5. WHEN THE MOON DESTROYS THE EARTH
+            </li>
+          </ol>
+          <!-- playlist of examples -->
+          <figure class="album-player album-player--mlu">
+            <figcaption class="album-player__figcaption">
+              DEMO(not finish):
+            </figcaption>
+
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/myLittleUniverse/1. MY LITTLE UNIVERSE - MLU (MARTA STIASNY).mp3"
+              ></audio>
+              <p class="album-mp3__description">MY LITTLE UNIVERSE</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/myLittleUniverse/MLU - STRANGER FROM NOWHERE (OFFICIAL VIDEO).mp3"
+              ></audio>
+              <p class="album-mp3__description">STRANGER FROM NOWHERE</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">RAVEN'S EYE</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/t-rex-roar.mp3"
+              ></audio>
+              <p class="album-mp3__description">CREATE YOU OWN ENEMY</p>
+            </div>
+            <div class="album-mp3">
+              <audio
+                class="album-mp3__audio"
+                controls
+                src="/src/assets/audio/myLittleUniverse/5. MY LITTLE UNIVERSE - WHEN THE MOON DESTROYS THE EARTH (KAROLINA MAŁOLEPSZA).wav"
+              ></audio>
+              <p class="album-mp3__description">
+                WHEN THE MOON DESTROYS THE EARTH
+              </p>
+            </div>
+          </figure>
+        </article>
+      </div>
+
+      <!-- MAIN IMAGE -->
+      <img
+        class="main__image"
+        src="/src/assets/images/kamilM__evilTouch--icon.svg"
+        alt="logo kamilM"
+      />
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
       <img
         class="footer__image"
-        src="/src/assets/images/titleLogo.png"
+        src="/src/assets/images/titleLogo.svg"
         alt="logo KamilM"
       />
       <p class="footer-description">

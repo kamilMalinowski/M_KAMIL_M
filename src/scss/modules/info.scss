@@ -1,0 +1,45 @@
+//completed
+.info {
+  background: url("/src/assets/images/background-light.png") center fixed;
+  height: 300px;
+  &__title {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 20px 0 12px;
+    text-align: center;
+  }
+  &__image {
+    display: block;
+    height: 140px;
+    margin: 0 auto 10px;
+    width: 140px;
+    &--special{
+      height: 180px;
+      width: 180px;
+    }
+  }
+}
+
+//completed
+.info-links {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  &__link {
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 4px 0;
+    text-decoration: none;
+    &:hover {
+      color: white;
+    }
+  }
+}

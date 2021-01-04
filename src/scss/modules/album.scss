@@ -1,0 +1,108 @@
+//completed
+.album {
+  display: flex;
+  margin: 0;
+  padding: 120px 80px 0;
+  &__image {
+    height: 570px;
+    margin: 0 35px 0 0;
+    width: 570px;
+  }
+}
+
+//completed
+.album-wrapper {
+  margin: 0;
+  &__title {
+    color: $mainColor;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 4px;
+    &--alone {
+      color: $alone;
+    }
+    &--mlu {
+      color: $mlu;
+    }
+  }
+  &__description {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 0 30px;
+    text-transform: uppercase;
+  }
+  &__linkButton {
+    background: $mainColor;
+    border-radius: 30px;
+    color: white;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+    width: 160px;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}
+
+//completed
+.album-list {
+  margin: 0;
+  padding: 0;
+  &__element {
+    color: $mainColor;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &--alone {
+      color: $alone;
+    }
+    &--mlu {
+      color: $mlu;
+    }
+  }
+}
+
+//completed
+.album-player {
+  background: $mainColor;
+  margin: 30px 0 15px;
+  width: 100%;
+  &--alone {
+    background: $alone;
+  }
+  &--mlu {
+    background: $mlu;
+  }
+  &__figcaption {
+    background: white;
+    font-size: 24px;
+    margin: 0 0 16px;
+    padding: 0 0 0 10px;
+  }
+}
+
+.album-mp3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  &__audio {
+    height: 20px;
+    margin: 0 0 5px 10px;
+    width: 100%;
+  }
+  &__description {
+    margin: 0;
+    padding: 0 2px 0 30px;
+  }
+}

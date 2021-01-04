@@ -97,5 +97,11 @@ module.exports = {
       chunks: ["index"],
       filename: "photos.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/merch.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "merch.html",
+    }),
   ],
 };
