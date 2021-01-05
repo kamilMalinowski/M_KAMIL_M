@@ -1,14 +1,21 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://kamilmalinowski.github.io/M_KAMIL_M/album_og.jpg)
 
-# WTF Webpack Starter Kit 
+# M_KAMIL_M
 
-Simple toolkit for your static websites development.
+The official website of PL progressive metal band M_KAMIL_M, which comprises founder Kamil Malinowski and his friends.
 
-## How to use it?
+## TOOLS
+
++ WTF Webpack starterkit
++ HTML + CSS/SCSS + JS
+
+## Webpack information:
+
+### How to use it?
 
 Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
 
-## Available scripts
+### Available scripts
 
 `npm run start` - runs development mode
 
