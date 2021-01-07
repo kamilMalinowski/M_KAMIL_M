@@ -13,6 +13,7 @@
     min-height: 100%;
   }
   &__video {
+    background: black;
     height: 100vh;
     left: 0;
     object-fit: cover;
@@ -29,6 +30,10 @@
     padding: 0;
     @media (max-width: 425px) {
       font-size: 40px;
+    }
+    @media (max-height: 500px) {
+      font-size: 40px;
+      margin: 140px 0 20px;
     }
     &--main{
       color: white;
@@ -51,6 +56,10 @@
     @media (max-width: 425px) {
       font-size: 20px;
     }
+    @media (max-height: 500px) {
+      font-size: 20px;
+
+    }
   }
   &__linkButton {
     background: none;
@@ -67,6 +76,10 @@
     width: 200px;
     @media (max-width: 425px) {
       font-size: 16px;
+    }
+    @media (max-height: 500px) {
+      font-size: 16px;
+
     }
     &:hover {
       background: $mainColor;

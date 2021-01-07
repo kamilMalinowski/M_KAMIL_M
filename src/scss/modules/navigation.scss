@@ -17,6 +17,9 @@
   @media (max-width: 576px) {
     flex-direction: column;
   }
+  @media (max-height: 500px) {
+    height: 70px;
+  }
   &__image {
     margin: 0 50px 30px;
     width: 250px;
@@ -51,7 +54,6 @@
       border-left: none;
       border-top: 1px solid white;
       height: 100%;
-
     }
   }
   &--subList {
@@ -136,13 +138,19 @@
   display: flex;
   flex-direction: column;
   font-weight: 500;
-  height:fit-content;
+  height: fit-content;
   justify-content: center;
   position: absolute;
-
   text-align: center;
   top: 66px;
   width: 140px;
+  z-index: 9999;
+  @media (min-height: 500px) {
+    top: 66px;
+  }
+  @media (max-height: 500px) {
+  top: 51px;
+  }
   @media (max-width: 576px) {
     right: 0;
     top: 100px;

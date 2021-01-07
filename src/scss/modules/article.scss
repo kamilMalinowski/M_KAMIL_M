@@ -53,7 +53,9 @@
   height: 100%;
   margin: 10px;
   width: 370px;
-
+  @media (max-width: 380px) {
+    width: 90%;
+  }
   &__description {
     background: black;
     color: $mainColor;
@@ -62,6 +64,9 @@
     margin: 0;
     padding: 10px 8px;
     width: 370px;
+    @media (max-width: 380px) {
+      width: 100%;
+    }
   }
   &__iframe {
     border: 1px solid black;
