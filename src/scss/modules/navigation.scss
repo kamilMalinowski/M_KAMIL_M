@@ -11,9 +11,15 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  @media (max-width: 768px) {
+    justify-content: space-around;
+  }
   &__image {
     margin: 0 50px 30px;
     width: 250px;
+    @media (max-width: 900px) {
+      display: none;
+    }
   }
 }
 
@@ -27,6 +33,21 @@
   padding: 0;
   position: relative;
   width: 460px;
+
+  &--socialMedia {
+    @media (max-width: 900px) {
+      border-left: 1px solid white;
+      width: 200px;
+    }
+    @media (max-width: 576px) {
+      background: #5daa5f;
+      border: 1px solid white;
+      grid-template-columns: 1fr;
+      right:0;
+      top: 1px;
+      width: 30px;
+    }
+  }
   &--subList {
     display: none;
   }
@@ -48,6 +69,9 @@
     text-decoration: none;
     text-shadow: 1px 1px 2px rgb(28, 24, 51);
     transition: 0.5s;
+    @media (max-width: 576px) {
+      padding: 0;
+    }
     &:hover {
       background: black;
     }
@@ -87,6 +111,9 @@
     height: 16px;
     margin: 3px 0 0;
     width: 16px;
+    @media (max-width: 576px) {
+      margin: 0;
+    }
   }
 }
 
