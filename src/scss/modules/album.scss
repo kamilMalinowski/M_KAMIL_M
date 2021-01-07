@@ -3,14 +3,21 @@
   display: flex;
   margin: 0;
   padding: 120px 80px 0;
-  @media (max-width: 900px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
   }
+  @media (max-width: 576px) {
+    padding: 120px 40px 0;
+  }
+  @media (max-width: 425px) {
+    padding: 120px 10px 0;
+  }
+
   &__image {
     height: 570px;
     margin: 0 35px 0 0;
     width: 570px;
-    @media (max-width: 900px) {
+    @media (max-width: 1024px) {
       height: 100%;
       margin: 0 0 35px 0;
       width: 100%;
@@ -27,7 +34,7 @@
     font-weight: 700;
     margin: 0;
     padding: 0 0 4px;
-    @media (max-width: 900px) {
+    @media (max-width: 1024px) {
       text-align: center;
     }
     &--alone {
@@ -43,7 +50,7 @@
     margin: 0;
     padding: 0 0 30px;
     text-transform: uppercase;
-    @media (max-width: 900px) {
+    @media (max-width: 1024px) {
       text-align: center;
     }
   }
@@ -60,6 +67,10 @@
     text-decoration: none;
     transition: 0.2s;
     width: 160px;
+    @media (max-width: 425px) {
+      font-size: 16px;
+      margin: 0 auto;
+    }
     &:hover {
       background: white;
       color: black;
@@ -79,6 +90,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
     &--alone {
       color: $alone;
     }
@@ -104,6 +118,9 @@
     font-size: 24px;
     margin: 0 0 16px;
     padding: 0 0 0 10px;
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -116,7 +133,12 @@
     width: 100%;
   }
   &__description {
+    font-size:16px;
     margin: 0;
     padding: 0 2px 0 30px;
+    @media (max-width: 425px) {
+      font-size: 12px;
+      padding: 3px 2px 0 15px;
+    }
   }
 }

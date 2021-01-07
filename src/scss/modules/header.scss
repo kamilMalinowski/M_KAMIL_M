@@ -27,12 +27,18 @@
     font-weight: 700;
     margin: 280px 0 20px;
     padding: 0;
+    @media (max-width: 425px) {
+      font-size: 40px;
+    }
     &--main{
       color: white;
       font-size: 60px;
       font-weight: 700;
       letter-spacing: 12px;
       margin: 175px 0 0;
+      @media (max-width: 425px) {
+        font-size: 40px;
+      }
     }
   }
   &__description {
@@ -42,6 +48,9 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
   }
   &__linkButton {
     background: none;
@@ -56,6 +65,9 @@
     text-decoration: none;
     transition: 0.2s;
     width: 200px;
+    @media (max-width: 425px) {
+      font-size: 16px;
+    }
     &:hover {
       background: $mainColor;
       border: 1px solid $mainColor;
